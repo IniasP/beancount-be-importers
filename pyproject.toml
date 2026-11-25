@@ -1,0 +1,22 @@
+[project]
+name = "beancount-be-importers"
+version = "0.1.0"
+description = "Beangulp importers for Belgian banks and services (Argenta, Belfius, Degiro, Pluxee)"
+readme = "README.md"
+license = "CC0-1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "beancount>=3.2.0",
+    "beangulp>=0.2.0",
+    "openpyxl>=3.1.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/beancount_be_importers"]
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "pylint>=4.0.8"]

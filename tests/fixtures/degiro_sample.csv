@@ -1,0 +1,6 @@
+Datum,,Valutadatum,Product,ISIN,Omschrijving,,Mutatie,,Saldo,,Order Id
+15-01-2024,10:00,15-01-2024,VWCE,IE00BK5BQT80,"Koop 5 @ 134,10 EUR",,EUR,"-670,50",EUR,"1000,00",order-1
+15-01-2024,10:00:01,15-01-2024,VWCE,IE00BK5BQT80,Transactiekosten en/of kosten van derden,,EUR,"-3,00",EUR,"996,68",order-1
+15-01-2024,10:00:02,15-01-2024,VWCE,IE00BK5BQT80,Transactiebelasting,,EUR,"-1,32",EUR,"995,68",order-1
+20-01-2024,09:00,20-01-2024,IWDA,IE00B4L5Y983,"Koop 2 @ 75,50 EUR",,EUR,"-151,00",EUR,"844,68",order-2
+21-01-2024,08:00,21-01-2024,,,flatex Deposit,,EUR,"500,00",EUR,"1344,68",
